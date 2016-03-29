@@ -15,6 +15,7 @@ func (emp Employee) Email() string {
 	return strings.ToLower(emp.FirstName + "." + emp.LastName + "@zenika.com")
 }
 
+//Basics
 func main() {
 	employees := []Employee{
 		{
